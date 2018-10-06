@@ -43,3 +43,9 @@ html,body{
     text-align: justify;
     margin-left: 630px;
 }
+#store-info{
+    margin-top: 50px;
+    width: 100%;
+    height: 400px;
+    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+}
