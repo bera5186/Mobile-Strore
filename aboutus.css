@@ -12,15 +12,17 @@ html,body{
     background-color: aquamarine;
 }
 #about{
-    position: absolute;
+    position: relative;
     width: 500px;
     margin-top: 200px;
-    margin-left: 600px; 
-    background-color: rgba(0, 0, 0, 0.356); 
+    margin-left: 200px; 
+    background-color: rgba(0, 0, 0, 0.034); 
     font-weight: 500;
     font-size: 5em;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif
+    margin-top: -330px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 50px;
 }
 
 #about-text{
@@ -29,4 +31,15 @@ html,body{
 #banner-image{
     background-size: cover; 
     
+}
+
+#did-you-know{
+    width: 600px;
+    text-align: justify;
+    float: left;
+}
+#our-mission{
+    padding-top: 0.5px;
+    text-align: justify;
+    margin-left: 630px;
 }
