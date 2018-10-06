@@ -2,6 +2,7 @@ html,body{
     margin: 0px;
     padding: 0px;
     width: 1349px;
+    font-family: fantasy;
 }
 
 .banner{
@@ -45,7 +46,44 @@ html,body{
 }
 #store-info{
     margin-top: 50px;
+    background-color: rgba(71, 61, 139, 0.589);
     width: 100%;
-    height: 400px;
-    background-image: linear-gradient(to right, #f78ca0 0%, #f9748f 19%, #fd868c 60%, #fe9a8b 100%);
+    height: 300px;
+    padding: 120px;
+    
+}
+#store-info-image-world , #store-info-image-world , #store-info-image-costumers, #store-info-image-delivery{
+    
+    width: 300px;
+    
+    padding: 30px;
+    float: left;
+    
+}
+#store-info-world-text,{
+    margin-top: 230px; 
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 15px;
+}
+
+#store-info-costumers-text,#store-info-delivery-text{
+    
+    text-align: center;
+    font-size: 1.4em;
+    line-height: 15px;
+}
+#store-info-image-world{
+    height: 300px;
+    font-family: fantasy;
+}
+#store-info-image-costumers{
+    height: 360px;
+}
+#footer{
+	width:1349px; 
+	height:50px;
+	background-color:green;
+	float:left;
+	margin-top:30px;
 }
